@@ -1,0 +1,29 @@
+* {
+    margin: 9%;
+    padding: 9%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: blue;
+}
+
+@keyframes fantasma {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        transform: translate(-20px);
+        opacity: 1000%;
+    }
+
+    100% {
+        opacity: 10%;
+    }
+}
+
+.fantasma {
+    animation: fantasma 10s infinite;
+}
